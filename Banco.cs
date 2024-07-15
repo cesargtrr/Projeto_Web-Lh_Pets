@@ -22,7 +22,7 @@ namespace Projeto_Web_Lh_Pets_versão_1
                     "User ID=sa;Password=12345;" +
                     "Server=localhost\\SQLEXPRESS;" +
                     "Database=vendas;" +
-                    "Trusted_Connection=False;"
+                    "Trusted_Connection=True;"
                     );
 
                     using (SqlConnection conexao = new SqlConnection(builder.ConnectionString))
